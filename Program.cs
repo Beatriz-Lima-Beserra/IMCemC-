@@ -35,7 +35,11 @@ namespace IMC
             {
                 Console.WriteLine("Sobrepeso");
             }
-                
+            else if (result >= 30)
+            {
+                Console.WriteLine("Obesidade");
+            }
+                 
         }
     }
 }
